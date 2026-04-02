@@ -1,7 +1,7 @@
 class OfficePass < Formula
   desc "Daily incrementing office password helper"
-  homepage "https://github.com/your-org/office-pass-cli"
-  url "https://github.com/your-org/office-pass-cli/archive/refs/tags/v0.1.0.tar.gz"
+  homepage "https://github.com/pythontyphon/office-pass"
+  url "https://github.com/pythontyphon/office-pass/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "REPLACE_WITH_TARBALL_SHA256"
   license "MIT"
 

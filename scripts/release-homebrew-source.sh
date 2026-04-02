@@ -10,7 +10,7 @@ if [[ $# -ne 1 ]]; then
 fi
 
 TAG="$1"
-OWNER_REPO="${OFFICE_PASS_REPO:-your-org/office-pass-cli}"
+OWNER_REPO="${OFFICE_PASS_REPO:-pythontyphon/office-pass}"
 FORMULA_FILE="Formula/office-pass.rb"
 TARBALL_URL="https://github.com/${OWNER_REPO}/archive/refs/tags/${TAG}.tar.gz"
 TMP_FILE="$(mktemp -t office-pass-tarball.XXXXXX)"
