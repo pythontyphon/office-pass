@@ -8,7 +8,7 @@ class OfficePass < Formula
   depends_on xcode: ["15.0", :build]
 
   def install
-    system "swift", "build", "-c", "release"
+    system "swift", "build", "--disable-sandbox", "-c", "release"
     bin.install ".build/release/office-pass"
   end
 
